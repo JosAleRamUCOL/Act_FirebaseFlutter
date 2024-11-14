@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "918958310503",
+    "project_id": "flutterapp-fba27",
+    "storage_bucket": "flutterapp-fba27.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918958310503:android:e6a8007f3582cf037c00c2",
+        "android_client_info": {
+          "package_name": "com.alex.flutterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJTq-xeFHUBw9CAAnzyvYweHaUBJqXUgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
