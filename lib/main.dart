@@ -1,4 +1,5 @@
 import 'package:appfirebase/pages/add_usuario_page.dart';
+import 'package:appfirebase/pages/edit_usuario_page.dart';
 import 'package:appfirebase/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -19,10 +20,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
         routes: {
           '/': (context) => const Home(),
           '/add': (context) => const AddUsuario(),
+          '/edit': (context) => const EditUsuario()
         },
     );
   }
